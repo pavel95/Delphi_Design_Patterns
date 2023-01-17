@@ -1,0 +1,24 @@
+unit UBridge;
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+  // Implementor
+  IDrawingAPI = interface
+    procedure DrawShape(x, y : integer);
+  end;
+
+  // Abstraction
+  TShape = class
+  private
+    FDrawingAPI : IDrawingAPI;
+  public
+    procedure Resize(APercent : integer);
+  end;
+
+implementation
+
+end.

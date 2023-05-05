@@ -18,7 +18,7 @@ git clone https://github.com/Pavel95/Delphi_Design_Patterns.git
 
 Each design pattern is located in its own folder and includes a Delphi project file (.dprj), source code (.pas), and any necessary files for the implementation. Simply open the project file in Delphi and run the program to see the design pattern in action.
 
-Please note that the code style and language may not be consistent throughout the repository. I just written some in English and some in Czech language. If you require more comments or explanations in English language, please let me know.
+Please note that the code style and language may not be consistent throughout the repository. Some pattern are represented by console application and other I written some comments in English and some in Czech language. If you require more comments or explanations in English language, please let me know.
 
 ## License
 
